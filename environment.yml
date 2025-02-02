@@ -1,6 +1,7 @@
 name: gpu-binder
 channels:
   - conda-forge
+  - defaults # or main
 dependencies:
   - python=3.11
   - ipykernel
@@ -8,10 +9,7 @@ dependencies:
   - soundfile
   - pydub
   - sox
-  - pydub
-  - soundfile
-  - pysox
-  - pip
+  - pysox  # If you need the Python bindings for sox
   - pip:
     - numpy
     - matplotlib
