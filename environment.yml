@@ -1,0 +1,18 @@
+name: gpu-binder
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9  # Or your preferred Python version
+  - pytorch
+  - torchaudio
+  - torchvision
+  - tensorflow-gpu  # Keep if needed
+  - cudatoolkit=11.8 # or 11.6, 11.7 - Choose a CUDA version compatible with TF and PyTorch.
+  - matplotlib
+  - ipykernel
+  - notebook
+  - librosa
+  - soundfile
+  - pydub
+  - sox  # Add sox here!
