@@ -1,12 +1,8 @@
 name: gpu-binder
 channels:
   - conda-forge
-  # - pytorch
 dependencies:
-  - python=3.11  # Python 3.11
-  # - pytorch
-  # - torchaudio
-  # - torchvision
+  - python=3.11
   - ipykernel
   - notebook
   - soundfile
