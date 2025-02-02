@@ -7,18 +7,17 @@ dependencies:
   # - pytorch
   # - torchaudio
   # - torchvision
-  - matplotlib
   - ipykernel
   - notebook
-  - librosa
   - soundfile
   - pydub
   - sox
-  # Tensorflow and CUDA:  These are the trickiest parts.
-  #- tensorflow-gpu  # If you *absolutely need* TensorFlow-GPU
-  # - cudatoolkit=11.8 # Or 11.7, 12.1, etc. - Match to TF and PyTorch
-  - sox # System dependency, best handled by conda
-  - librosa
   - pydub
   - soundfile
   - pysox
+  - pip
+  pip:
+    - numpy
+    - matplotlib
+    - pandas
+    - librosa
