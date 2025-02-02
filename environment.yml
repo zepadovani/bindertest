@@ -7,3 +7,4 @@ dependencies:
   - ipykernel
   - notebook
   - numpy  # Add one essential package at a time
+  - sox
