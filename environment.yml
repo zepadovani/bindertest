@@ -1,4 +1,4 @@
-name: gpu-binder
+name: test-env
 channels:
   - conda-forge
   - defaults # or main
@@ -6,12 +6,4 @@ dependencies:
   - python=3.11
   - ipykernel
   - notebook
-  - soundfile
-  - pydub
-  - sox
-  - pysox  # If you need the Python bindings for sox
-  - pip:
-    - numpy
-    - matplotlib
-    - pandas
-    - librosa
+  - numpy  # Add one essential package at a time
