@@ -8,3 +8,5 @@ dependencies:
   - notebook
   - numpy  # Add one essential package at a time
   - sox
+  - pip:
+    - numpy
